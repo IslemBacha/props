@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+body{
+  padding: 5%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,9 +26,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body{
+  background-color:grey
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.iheb{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +48,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.azer{
+  width: 250px;
+}
+.islem{
+  display: flex;
+  justify-content: center;
+  background-color:grey
 }
